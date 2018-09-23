@@ -1,7 +1,12 @@
-function sum(a, b) { //eslint-disable-line
-    var summed = a + b;
-    var concatenated = 'The sum of ' + a + ' and ' + b + ' is ' + summed + '.';
-    var returnArray = [summed, concatenated];
-    return returnArray;
-  }
+
+function testMultiply() { //eslint-disable-line
+    if(multiply(5,9)[0] === 45 && multiply(5,9)[1] === 'the product of 5 and 9 is 45.'){
+        console.log('%c TEST FOR multiply() PASSES', 'color:green');
+    }else{
+        console.log('%c TEST FOR multiply() FAILS', 'color: red');
+    }
+}
+
+
+
 
